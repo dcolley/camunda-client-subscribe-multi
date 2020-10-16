@@ -1,5 +1,6 @@
 const { Client, logger } = require('camunda-external-task-client-js');
 
+// chose one option, you don't need both
 // const {workers} = require('./workers') // use this if you want to split the workers into different files
 const {workers} = require('./workers.js') // use this if you have all the workers in the same file
 
